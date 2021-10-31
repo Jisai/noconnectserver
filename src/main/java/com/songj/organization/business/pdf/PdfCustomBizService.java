@@ -7,12 +7,10 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.pdf.draw.DottedLineSeparator;
 import com.itextpdf.text.pdf.draw.LineSeparator;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * @Classname PdfCustomBizService
@@ -114,71 +112,109 @@ public class PdfCustomBizService {
     /**
      * 生成个性化pdf
      */
-    private void createPdfCustom(File pdfFile){
-        // 指定页面大小为A4
-        Document document =new Document(PageSize.A4);
-        // 建立一个书写器(Writer)与document对象关联，通过书写器(Writer)可以将文档写入到磁盘中。[生成PDF文件到磁盘]
-        PdfWriter writer = null;
+    private void createPdfCustom(File pdfFile) {
+        BaseFont bf = null;
+        Font font = null;
         try {
-            writer = PdfWriter.getInstance(document,new FileOutputStream(pdfFile));
+            bf = BaseFont.createFont("STSong-Light", "UniGB-UCS2-H",
+                    BaseFont.NOT_EMBEDDED);//创建字体
+            font = new Font(bf, 12, Font.BOLD);//使用字体
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // 2.1 指定页面大小为A4，且自定义页边距(marginLeft、marginRight、marginTop、marginBottom)
+        Document document =new Document(PageSize.A4,50,50,30,20);
+        //2.2 建立一个书写器(Writer)与document对象关联，通过书写器(Writer)可以将文档写入到磁盘中。[生成PDF文件到磁盘]
+        try {
+            PdfWriter writer =PdfWriter.getInstance(document,new FileOutputStream(pdfFile));
         } catch (DocumentException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        // 水印
-        writer.setPageEvent(new Watermark("LongHu"));
-
-        // 3.打开文档
+        //2.3 写入数据之前要打开文档
         document.open();
-        document.addTitle("标题 - 个性化PDF文件");// 标题
-        document.addAuthor("songjisai");// 作者
-        document.addSubject("主题 - 个性化PDF文件");// 主题
-        document.addKeywords("我是关键字");// 关键字
-        document.addCreator("我是创建者");// 创建者
-        // 4.向文档中添加内容
-        //4.1 设置字体
-        // 段落
-        Paragraph paragraph = new Paragraph("收款电子收据！", titlefont);
-        paragraph.setAlignment(1); //设置文字居中 0靠左   1，居中     2，靠右
-        paragraph.setIndentationLeft(12); //设置左缩进
-        paragraph.setIndentationRight(12); //设置右缩进
-        paragraph.setFirstLineIndent(24); //设置首行缩进
-        paragraph.setLeading(20f); //行间距
-        paragraph.setSpacingBefore(100f); //设置段落上空白
-        paragraph.setSpacingAfter(10f); //设置段落下空白
-
-        //添加图片
+        //2.4 向文档中添加内容
         try {
-            String imgPath = "";
-            Image png = Image.getInstance(imgPath);
-            // 根据域的大小缩放图片
-            //image.scaleToFit(signRect.getWidth(), signRect.getHeight());
-            png.setAlignment(Image.ALIGN_CENTER);
-            document.add(png);
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            document.addTitle("Title@PDF-Java");// 标题
+            document.addAuthor("Author@umiz");// 作者
+            document.addSubject("Subject@iText pdf sample");// 主题
+            document.addKeywords("Keywords@iTextpdf");// 关键字
+            document.addCreator("Creator@umiz`s");// 创建者
+
+            // 段落
+            Paragraph pg1 = new Paragraph("收款电子收据", titlefont);
+            pg1.setAlignment(1); //设置文字居中 0靠左   1，居中     2，靠右
+//            pg1.setIndentationLeft(12); //设置左缩进
+//            pg1.setIndentationRight(12); //设置右缩进
+//            pg1.setFirstLineIndent(24); //设置首行缩进
+//            pg1.setLeading(20f); //行间距
+            pg1.setSpacingBefore(200f); //设置段落上空白
+//            pg1.setSpacingAfter(30); //设置段落下空白
+            document.add(pg1);
+
+            Paragraph pg2 =new Paragraph("开具日期：",textfont);
+//            pg2.setFirstLineIndent(30);
+//            pg2.setSpacingAfter(10); //设置段落下空白
+            document.add(pg2);
+
+            Paragraph pg3 =new Paragraph("收据编号：",textfont);
+            pg3.setSpacingAfter(30);
+            document.add(pg3);
+
+            Paragraph pg4 =new Paragraph("Billed To：",textfont);
+            pg4.setFirstLineIndent(20);
+            document.add(pg4);
+
+            Paragraph pg5 =new Paragraph("姓名：",textfont);
+            pg5.setFirstLineIndent(20);
+            document.add(pg5);
+
+            Paragraph pg6 =new Paragraph("公司名称：",textfont);
+            pg6.setFirstLineIndent(20);
+            document.add(pg6);
+
+            Paragraph pg7 =new Paragraph("合同编号：" + "1233466hhfghk",textfont);
+            pg7.setFirstLineIndent(20);
+            document.add(pg7);
+
+            Paragraph pg8 =new Paragraph("合同名称：" + "我是合同名称",textfont);
+            pg8.setFirstLineIndent(20);
+            document.add(pg8);
+
+            // 直线
+            Paragraph pg9 = new Paragraph();
+            pg9.add(new Chunk(new LineSeparator()));
+            pg9.setSpacingAfter(30); //设置段落下空白
+            document.add(pg9);
+
+
+            Paragraph pg10 =new Paragraph("费用名称：" + "我是合同名称",textfont);
+            pg10.setFirstLineIndent(20);
+            document.add(pg10);
+
+            // 直线
+            Paragraph pg11 = new Paragraph();
+            pg11.add(new Chunk(new LineSeparator()));
+            document.add(pg11);
+
+            PdfPTable table =new PdfPTable(3);//括号参数表示列
+
+            PdfPCell cell_0_0 = new PdfPCell();
+            cell_0_0.setPhrase(new Paragraph("some text"));
+            
+            table.addCell(cell_0_0);
+            document.add(table);
+
+
+            document.addCreationDate();
         } catch (DocumentException e) {
             e.printStackTrace();
+        }finally {
+            //5.关闭文档
+            document.close();
         }
-
-
-        // 定位
-        Anchor gotoP = new Anchor("goto");
-        gotoP.setReference("#top");
-
-        // 直线
-        Paragraph p1 = new Paragraph();
-        p1.add(new Chunk(new LineSeparator()));
-
-
-        // 直线
-        Paragraph p2 = new Paragraph();
-        p2.add(new Chunk(new LineSeparator()));
-
-        // 5.关闭文档
-        document.close();
-
     }
 
 
