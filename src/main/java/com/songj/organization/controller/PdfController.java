@@ -25,6 +25,13 @@ public class PdfController {
     private PdfCustomBizService pdfCustomBizService;
 
 
+
+    @GetMapping("/test")
+    public String test(@RequestParam(value = "pdfFilePath") String pdfFilePath){
+        return pdfFilePath;
+    }
+
+
     @GetMapping("/createPdfDemo")
     public String createPdfDemo(@RequestParam(value = "pdfFilePath") String pdfFilePath
             , @RequestParam(value = "pdfFileName")  String pdfFileName
