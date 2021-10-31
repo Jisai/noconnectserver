@@ -197,17 +197,21 @@ public class PdfCustomBizService {
             // 直线
             Paragraph pg11 = new Paragraph();
             pg11.add(new Chunk(new LineSeparator()));
+            pg11.setSpacingAfter(20);
             document.add(pg11);
 
-            PdfPTable table =new PdfPTable(3);//括号参数表示列
 
-            PdfPCell cell_0_0 = new PdfPCell();
-            cell_0_0.setPhrase(new Paragraph("some text"));
-            
-            table.addCell(cell_0_0);
+
+            PdfPTable table = new PdfPTable(3);
+            for (int aw = 0; aw < 3; aw++) {
+                // 构建每一格
+                table.addCell("cell");
+            }
+
+
+
+
             document.add(table);
-
-
             document.addCreationDate();
         } catch (DocumentException e) {
             e.printStackTrace();
