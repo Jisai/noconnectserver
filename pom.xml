@@ -22,6 +22,7 @@
         <lombok.version>1.18.8</lombok.version>
         <maven.version>3.5.1</maven.version>
         <swagger.version>2.7.0</swagger.version>
+        <rocketmq.version>1.8.8.1.Final</rocketmq.version>
     </properties>
 
     <dependencies>
@@ -60,6 +61,13 @@
         </dependency>
 
 
+        <!-- rocketmq -->
+        <dependency>
+            <groupId>com.aliyun.openservices</groupId>
+            <artifactId>ons-client</artifactId>
+            <version>${rocketmq.version}</version>
+        </dependency>
+
         <!--swagger 文档注释-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -91,6 +99,18 @@
             <version>1.2.62</version>
         </dependency>
 
+
+        <!-- pdf 生成相关 -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.2.0</version>
+        </dependency>
 
     </dependencies>
 
