@@ -1,6 +1,6 @@
 package com.songj.organization.controller;
 
-import com.songj.organization.business.pdf.PdfCustomBizService;
+import com.songj.organization.business.pdf.ITextPdfService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 public class PdfController {
 
     @Autowired
-    private PdfCustomBizService pdfCustomBizService;
+    private ITextPdfService ITextPdfService;
 
 
 
@@ -37,7 +37,7 @@ public class PdfController {
             , @RequestParam(value = "pdfFileName")  String pdfFileName
             , HttpServletResponse response){
 
-        return pdfCustomBizService.createPdfDemo(pdfFilePath, pdfFileName);
+        return ITextPdfService.createPdfDemo(pdfFilePath, pdfFileName);
 
     }
 
