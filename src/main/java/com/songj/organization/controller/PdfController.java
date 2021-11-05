@@ -1,8 +1,7 @@
 package com.songj.organization.controller;
 
-import com.songj.organization.business.pdf.ITextPdfService;
+import com.songj.organization.util.pdf.itext.ITextPdfUtil;
 import io.swagger.annotations.Api;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,8 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 @Api(value = "PdfController", description = "pdf相关Api")
 public class PdfController {
 
-    @Autowired
-    private ITextPdfService ITextPdfService;
 
 
 
@@ -37,7 +34,7 @@ public class PdfController {
             , @RequestParam(value = "pdfFileName")  String pdfFileName
             , HttpServletResponse response){
 
-        return ITextPdfService.createPdfDemo(pdfFilePath, pdfFileName);
+        return ITextPdfUtil.createPdfDemo(pdfFilePath, pdfFileName);
 
     }
 

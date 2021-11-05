@@ -116,12 +116,27 @@
             <artifactId>itext-asian</artifactId>
             <version>5.2.0</version>
         </dependency>
+
         <!-- pdfbox 生成pdf相关 -->
+        <!-- pdfbox 满足一般的PDF操作需求 -->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+        <!-- pdfbox-app PDFbox的多个命令行的工具包 -->
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox-app</artifactId>
-            <version>1.8.10</version>
+            <version>1.8.2</version>
         </dependency>
+        <!-- fontbox PDF使用的字库包 -->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>fontbox</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+
 
     </dependencies>
 
