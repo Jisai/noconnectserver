@@ -1,11 +1,7 @@
 package com.songj.organization.service.impl;
 
-import com.songj.organization.model.entity.UserPO;
 import com.songj.organization.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * @ClassNamee: UserServiceImpl

@@ -1,4 +1,4 @@
-package com.songj.organization.model.entity;
+package com.songj.organization.model.po;
 
 import lombok.Data;
 
