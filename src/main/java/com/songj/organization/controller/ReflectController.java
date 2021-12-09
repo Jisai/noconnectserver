@@ -27,16 +27,16 @@ public class ReflectController {
 
 
 
-    @PostMapping("/test")
-    public List<Object> test(){
+    @PostMapping("/test1")
+    public List<Object> test1(){
         String param = "[\n" +
                 "    {\n" +
-                "        \"tableName\": \"reflect_data_one\",\n" +
-                "        \"beanJsonContent\": \"{'id':'12345', 'name':'小明'}\"\n" +
+                "        'tableName': 'reflect_data_one',\n" +
+                "        'beanJsonContent': '{'id':'12345', 'name':'小明'}'\n" +
                 "    },\n" +
                 "    {\n" +
-                "        \"tableName\": \"reflect_data_two\",\n" +
-                "        \"beanJsonContent\": \"{'id':'12345', 'name':'小明'}\"\n" +
+                "        'tableName': 'reflect_data_two',\n" +
+                "        'beanJsonContent': '{'id':'12345', 'name':'小明'}'\n" +
                 "    }\n" +
                 "]";
 
@@ -62,4 +62,7 @@ public class ReflectController {
         System.out.println(JSONUtil.toJsonStr(result));
         return result;
     }
+
+
+
 }
