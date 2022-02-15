@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  servlet:
+    application-display-name: noconnectserver
+    context-path: /noconnectserver
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  #给项目来个名字
+  application:
+    name: organization
+
+logging:
+  level:
+    com.songj.organization.dao: debug

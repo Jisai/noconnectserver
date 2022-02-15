@@ -1,7 +1,5 @@
 package com.songj.organization.service;
 
-import com.alibaba.fastjson.JSON;
-import com.songj.organization.model.entity.UserPO;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

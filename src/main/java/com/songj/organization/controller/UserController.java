@@ -1,7 +1,7 @@
 package com.songj.organization.controller;
 
 import com.songj.organization.model.dto.UserDTO;
-import com.songj.organization.model.entity.UserPO;
+import com.songj.organization.model.po.UserPO;
 import com.songj.organization.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
