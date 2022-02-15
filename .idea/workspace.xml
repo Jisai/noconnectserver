@@ -7,6 +7,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/service/FruitStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/service/AppleStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/service/OrangeStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/service/FactoryForFruitStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/controller/DesignModeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/songj/organization/service/PearStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -18,6 +91,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1xWdWQnKXbeLoiFM7hDLwABffcf" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,15 +116,45 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644889029930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644889460507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PdfboxUtil">
+    <configuration name="PdfboxUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.songj.organization.util.pdf.pdfbox.PdfboxUtil" />
+      <module name="noconnectserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.songj.organization.util.pdf.pdfbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NoConnectServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="noconnectserver" />
       <extension name="coverage">
@@ -57,6 +170,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PdfboxUtil" />
         <item itemvalue="Spring Boot.NoConnectServerApplication" />
       </list>
     </recent_temporary>
@@ -78,11 +192,101 @@
       <workItem from="1630552755388" duration="11000" />
       <workItem from="1630552859662" duration="2714000" />
       <workItem from="1630559031207" duration="241000" />
+      <workItem from="1635770293663" duration="47000" />
+      <workItem from="1635815579888" duration="3487000" />
+      <workItem from="1635821905271" duration="4077000" />
+      <workItem from="1635840430098" duration="4413000" />
+      <workItem from="1635908732798" duration="397000" />
+      <workItem from="1636106182571" duration="384000" />
     </task>
+    <task id="LOCAL-00001" summary="PDF">
+      <created>1635770326708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635770326708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+">
+      <created>1644889367985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644889367985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="234000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26160052" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30351907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.414956" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49831876" weight="0.32844576" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5016812" side_tool="true" weight="0.32697946" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32991204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32952252" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PDF" />
+    <MESSAGE value="+" />
+    <option name="LAST_COMMIT_MESSAGE" value="+" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630557700743">
@@ -90,50 +294,71 @@
     </state>
     <state x="367" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630553037797" />
     <state x="367" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1630557700743" />
+    <state x="421" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1635818097235">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="421" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635818097235" />
+    <state x="900" y="25" width="758" height="1024" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1635818141571">
+      <screen x="0" y="25" width="1792" height="1024" />
+    </state>
+    <state x="844" y="-1386" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-441.-1415.2560.1415/0.25.1792.1024@-441.-1415.2560.1415" timestamp="1635757160241" />
+    <state x="900" y="25" width="758" height="1024" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635818141571" />
     <state x="641" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630553092144">
       <screen x="0" y="25" width="1792" height="1017" />
     </state>
     <state x="641" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630553092144" />
-    <state width="1734" height="267" key="GridCell.Tab.0.bottom" timestamp="1630559272492">
-      <screen x="0" y="25" width="1792" height="1019" />
+    <state x="282" y="104" key="CommitChangelistDialog2" timestamp="1635770326528">
+      <screen x="0" y="25" width="1792" height="1023" />
+    </state>
+    <state x="282" y="104" key="CommitChangelistDialog2/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1635770326528" />
+    <state width="1748" height="413" key="GridCell.Tab.0.bottom" timestamp="1635846296054">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state width="1748" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1015@0.25.1792.1015" timestamp="1630552517249" />
     <state width="1748" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630552611734" />
     <state width="1734" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1019@0.25.1792.1019" timestamp="1630559272492" />
     <state width="1734" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630557095937" />
     <state width="1734" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1630558983818" />
-    <state width="1734" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1630557775434" />
-    <state width="1734" height="267" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1630557698245" />
-    <state width="1734" height="267" key="GridCell.Tab.0.center" timestamp="1630559272491">
-      <screen x="0" y="25" width="1792" height="1019" />
+    <state width="1748" height="413" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635846296054" />
+    <state width="1748" height="415" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1635731803012" />
+    <state width="1748" height="413" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1030@0.25.1792.1030" timestamp="1635842679542" />
+    <state width="1748" height="413" key="GridCell.Tab.0.bottom/-441.-1415.2560.1415/0.25.1792.1033@0.25.1792.1033" timestamp="1635842651006" />
+    <state width="1748" height="413" key="GridCell.Tab.0.center" timestamp="1635846296053">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state width="1748" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1015@0.25.1792.1015" timestamp="1630552517248" />
     <state width="1748" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630552611733" />
     <state width="1734" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1019@0.25.1792.1019" timestamp="1630559272491" />
     <state width="1734" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630557095936" />
     <state width="1734" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1630558983818" />
-    <state width="1734" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1630557775433" />
-    <state width="1734" height="267" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1630557698244" />
-    <state width="1734" height="267" key="GridCell.Tab.0.left" timestamp="1630559272491">
-      <screen x="0" y="25" width="1792" height="1019" />
+    <state width="1748" height="413" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635846296053" />
+    <state width="1748" height="415" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1635731803011" />
+    <state width="1748" height="413" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1030@0.25.1792.1030" timestamp="1635842679541" />
+    <state width="1748" height="413" key="GridCell.Tab.0.center/-441.-1415.2560.1415/0.25.1792.1033@0.25.1792.1033" timestamp="1635842651005" />
+    <state width="1748" height="413" key="GridCell.Tab.0.left" timestamp="1635846296052">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state width="1748" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1015@0.25.1792.1015" timestamp="1630552517248" />
     <state width="1748" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630552611733" />
     <state width="1734" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1019@0.25.1792.1019" timestamp="1630559272491" />
     <state width="1734" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630557095936" />
     <state width="1734" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1630558983817" />
-    <state width="1734" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1630557775433" />
-    <state width="1734" height="267" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1630557698244" />
-    <state width="1734" height="267" key="GridCell.Tab.0.right" timestamp="1630559272492">
-      <screen x="0" y="25" width="1792" height="1019" />
+    <state width="1748" height="413" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635846296052" />
+    <state width="1748" height="415" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1635731803010" />
+    <state width="1748" height="413" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1030@0.25.1792.1030" timestamp="1635842679541" />
+    <state width="1748" height="413" key="GridCell.Tab.0.left/-441.-1415.2560.1415/0.25.1792.1033@0.25.1792.1033" timestamp="1635842651004" />
+    <state width="1748" height="413" key="GridCell.Tab.0.right" timestamp="1635846296053">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state width="1748" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1015@0.25.1792.1015" timestamp="1630552517249" />
     <state width="1748" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630552611733" />
     <state width="1734" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1019@0.25.1792.1019" timestamp="1630559272492" />
     <state width="1734" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630557095936" />
     <state width="1734" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1630558983818" />
-    <state width="1734" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1630557775434" />
-    <state width="1734" height="267" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1630557698245" />
+    <state width="1748" height="413" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1635846296053" />
+    <state width="1748" height="415" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1026@0.25.1792.1026" timestamp="1635731803011" />
+    <state width="1748" height="413" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1030@0.25.1792.1030" timestamp="1635842679542" />
+    <state width="1748" height="413" key="GridCell.Tab.0.right/-441.-1415.2560.1415/0.25.1792.1033@0.25.1792.1033" timestamp="1635842651005" />
     <state width="1734" height="267" key="GridCell.Tab.1.bottom" timestamp="1630559272493">
       <screen x="0" y="25" width="1792" height="1019" />
     </state>
@@ -170,13 +395,24 @@
     <state width="1734" height="267" key="GridCell.Tab.1.right/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630557095938" />
     <state width="1734" height="267" key="GridCell.Tab.1.right/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1630558983819" />
     <state width="1734" height="267" key="GridCell.Tab.1.right/-441.-1415.2560.1415/0.25.1792.1024@0.25.1792.1024" timestamp="1630557775435" />
-    <state x="405" y="168" key="SettingsEditor" timestamp="1630559270076">
-      <screen x="0" y="25" width="1792" height="1019" />
+    <state x="138" y="-1216" key="SettingsEditor" timestamp="1635731490220">
+      <screen x="-441" y="-1415" width="2560" height="1415" />
     </state>
     <state x="405" y="166" key="SettingsEditor/-2560.-107.2560.1415/0.25.1792.1010@0.25.1792.1010" timestamp="1630475195955" />
     <state x="405" y="167" key="SettingsEditor/-441.-1415.2560.1415/0.25.1792.1017@0.25.1792.1017" timestamp="1630552923732" />
     <state x="405" y="168" key="SettingsEditor/-441.-1415.2560.1415/0.25.1792.1019@0.25.1792.1019" timestamp="1630559270076" />
     <state x="405" y="168" key="SettingsEditor/-441.-1415.2560.1415/0.25.1792.1021@0.25.1792.1021" timestamp="1630556958074" />
+    <state x="138" y="-1216" key="SettingsEditor/-441.-1415.2560.1415/0.25.1792.1026@-441.-1415.2560.1415" timestamp="1635731490220" />
+    <state x="953" y="334" key="Vcs.Push.Dialog.v2" timestamp="1635770328965">
+      <screen x="0" y="25" width="1792" height="1023" />
+    </state>
+    <state x="953" y="334" key="Vcs.Push.Dialog.v2/-441.-1415.2560.1415/0.25.1792.1023@0.25.1792.1023" timestamp="1635770328965" />
+    <state x="921" y="-987" key="Vcs.Push.Dialog.v2/-441.-1415.2560.1415/0.25.1792.1026@-441.-1415.2560.1415" timestamp="1635731469201" />
+    <state x="921" y="-987" key="Vcs.Push.Dialog.v2/-441.-1415.2560.1415/0.25.1792.1027@-441.-1415.2560.1415" timestamp="1635731725039" />
+    <state x="1024" y="-931" key="git4idea.merge.GitPullDialog" timestamp="1635731454967">
+      <screen x="-441" y="-1415" width="2560" height="1415" />
+    </state>
+    <state x="1024" y="-931" key="git4idea.merge.GitPullDialog/-441.-1415.2560.1415/0.25.1792.1026@-441.-1415.2560.1415" timestamp="1635731454967" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1630556488485">
       <screen x="0" y="25" width="1792" height="1021" />
     </state>
