@@ -1,0 +1,46 @@
+
+psquid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·µ†.8Œ•öµÍ/
+jsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(›‡¬‹8¶Šû·Í/
+@squid:S1148„"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Asquid:S1481T"+Remove this unused "writer" local variable.(ãÌ”	
+qsquid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·®¤8þçš¶Í/
+Gsquid:S1068"+Remove this unused "keyfont" private field.(Ù™‹™ùÿÿÿÿ
+jsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(Ó¯žÜ8šëü·Í/
+Gsquid:S1148‚"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8„âŸ³Í/
+Esquid:S1481r")Remove this unused "font" local variable.(”¿®Õÿÿÿÿÿ
+vsquid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î´Þãþÿÿÿÿ8Âá‚¶Í/
+dsquid:S1192!"MDefine a constant instead of duplicating this literal "UniGB-UCS2-H" 3 times.(¥’¡ù
+]squid:S2147ƒ"ECombine this catch with the one at line 129, which has the same body.(‹±ÃÆ
+asquid:S2259?"EA "NullPointerException" could be thrown; "pdfFile" is nullable here.(¦ö­´þÿÿÿÿ
+qsquid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÝ¢ä8‰ù¸µÍ/
+?squid:S1148("#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+[squid:S2147W"DCombine this catch with the one at line 85, which has the same body.(‹±ÃÆ
+Ysquid:S1141‘"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¡²é¶Í/
+dsquid:S1192!"MDefine a constant instead of duplicating this literal "STSong-Light" 3 times.(¥’¡ù
+vsquid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÁŽ›üÿÿÿÿ8Âá‚¶Í/
+Wsquid:UnusedPrivateMethodF"2Remove this unused private "createPdfDemo" method.(¥Í§Ó
+?squid:S1148;"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Gsquid:S1148ö"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ü¸¶Í/
+Hsquid:S1068",Remove this unused "headfont" private field.(ª¬’¤üÿÿÿÿ
+qsquid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÚ£˜8Œ•öµÍ/
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ó¯žÜ8ø„Œ¸Í/
+psquid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žÇV8Âá‚¶Í/
+?squid:S1148N"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Gsquid:S1148˜"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¡²é¶Í/
+vsquid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â‚—ûÿÿÿÿ8Œ•öµÍ/
+Fsquid:S1148V"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8„âŸ³Í/
+qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥þ°ö8‰ù¸µÍ/
+vsquid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¯Ñþÿÿÿÿ8Œ•öµÍ/
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Ãá®•ûÿÿÿÿ
+qsquid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Íè8Œ•öµÍ/
+?squid:S1148X"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Hsquid:S1068",Remove this unused "maxWidth" private field.(ÁŠÀÖÿÿÿÿÿ
+{squid:S1488?"_Immediately return this expression instead of assigning it to the temporary variable "pdfPath".(¦ö­´þÿÿÿÿ
+vsquid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ËŒŸüÿÿÿÿ8‰ù¸µÍ/
+Fsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8„âŸ³Í/
+qsquid:S00117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éáä‘8þçš¶Í/
+?squid:S1148x"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+qsquid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ˆû–8þçš¶Í/
+vsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¡ß¤üÿÿÿÿ8Âá‚¶Í/
+tsquid:UselessImportCheck"KRemove this unused import 'com.itextpdf.text.pdf.draw.DottedLineSeparator'.(Éµ´£üÿÿÿÿ
