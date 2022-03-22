@@ -22,7 +22,7 @@ public class DesignModeController {
 
     //策略+工厂
     @Autowired
-    FactoryForFruitStrategy factoryForFruitStrategy;
+    private  FactoryForFruitStrategy factoryForFruitStrategy;
     //策略+工厂
     @Autowired
     private AnimalBusinessFactory animalBusinessFactory;
@@ -41,7 +41,7 @@ public class DesignModeController {
         return animalBusinessFactory.getStrategy(code).say();
     }
     //策略
-    @GetMapping("/strategy/fruit")
+    @GetMapping("/strategy/testFruit")
     public String testFruit(@RequestParam("code") String code){
         return fruitBusinessFactory.getStrategy(code).say();
     }

@@ -1,6 +1,6 @@
 package com.songj.organization.service.designmode;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 /**
  * @ClassNamee:
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @Date: 2022-02-15 09:23
  * @Version: 1.0
  **/
-@Service("pear")
+@Component("pear")
 public class PearStrategy implements FruitStrategy {
     @Override
     public String getType() {
